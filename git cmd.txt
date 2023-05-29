@@ -1,0 +1,29 @@
+//create one folder and open it in vscode
+
+mkdir folder_name
+cd folder__name
+git --version
+
+//create repo in github without readme file
+///create one file (file1.txt) in that folder manually
+
+git init 
+git add .
+git status
+
+//copy link of repo from github 
+
+git remote add origin "paste repo link"
+git commit -m "message...."
+git status
+git push -u origin master
+
+
+///to push second file
+//create another file in that folder (file2.txt)
+
+git add .
+git status
+git commit -m "message.."
+git push -u origin master 
+
